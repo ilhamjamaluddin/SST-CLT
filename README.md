@@ -11,7 +11,7 @@ Note: This implementation is based on the best trained model. There will be diff
    -  scikit-learn == 1.2.2
    -  numpy == 1.26.0
    -  matplotlib == 3.8.0
-    
+3. Please download the best trained model and placed it into "./Model" folder : https://drive.google.com/drive/folders/1vTKxIOxJG7OaJ5lZu4vugfDzjJaU0QW0?usp=sharing 
 2. Run this following code for Demo. Please select the study area: ENP or CHPSP
 ```bash
 python demo.py --study_area "ENP"
