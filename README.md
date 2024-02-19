@@ -19,7 +19,7 @@ python demo.py --study_area "ENP"
 # Full Dataset
 This Demo is just used testing dataset. If someone want to get the Full dataset for ENP and CHPSP dataset, please fill in the following form: [Link](https://forms.gle/qhnqSqhjwzrC5u916)
 
-# Acknowledgement
+# Acknowledgements
 The implementation of SWINTF is benefited from: [Link](https://github.com/yingkaisha/keras-vision-transformer)
 
 # Contact
