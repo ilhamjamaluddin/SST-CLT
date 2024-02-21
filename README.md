@@ -1,6 +1,6 @@
 # SST-CLT
-The implementation source code and demo for Spatial–spectral–temporal deep regression model with convolutional long short-term memory and transformer for the large-area mapping of mangrove canopy height by using Sentinel-1 and Sentinel-2 data (SST-CLT)
-https://doi.org/10.1109/TGRS.2024.3362788
+The implementation source code and demo for Spatial–spectral–temporal deep regression model with convolutional long short-term memory and transformer for the large-area mapping of mangrove canopy height by using Sentinel-1 and Sentinel-2 data (SST-CLT).
+IEEE TGRS (https://doi.org/10.1109/TGRS.2024.3362788)
 
 Note: This implementation is based on the best trained model. There will be differences in the results compared to those in the paper because the results reported in the paper are the average results of the MAE and RMSE (the SST-CLT model was trained thrice).
 
