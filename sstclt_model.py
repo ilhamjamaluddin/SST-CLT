@@ -32,31 +32,31 @@ def sst_clt(input_shape_S1,input_shape_S2, k=1, s=1, p='same'):
         
         #5x SWINTF Blocks
         SWT = swin_layers.SwinTransformerBlock(dim=embed_dim,num_patch=(num_patch_x, num_patch_y),
-                                                   num_heads=3,window_size=3,shift_size=0,num_mlp=1024, 
+                                                   num_heads=3,window_size=3,shift_size=2,num_mlp=1024, 
                                                    qkv_bias=qkv_bias,qk_scale=qk_scale,mlp_drop=mlp_drop_rate, 
                                                    attn_drop=attn_drop_rate,proj_drop=proj_drop_rate,
                                                    drop_path_prob=drop_path_rate)(EmP)
         
         SWT = swin_layers.SwinTransformerBlock(dim=embed_dim,num_patch=(num_patch_x, num_patch_y),
-                                                   num_heads=3,window_size=3,shift_size=0,num_mlp=1024, 
+                                                   num_heads=3,window_size=3,shift_size=2,num_mlp=1024, 
                                                    qkv_bias=qkv_bias,qk_scale=qk_scale,mlp_drop=mlp_drop_rate, 
                                                    attn_drop=attn_drop_rate,proj_drop=proj_drop_rate,
                                                    drop_path_prob=drop_path_rate)(SWT)
         
         SWT = swin_layers.SwinTransformerBlock(dim=embed_dim,num_patch=(num_patch_x, num_patch_y),
-                                                   num_heads=3,window_size=3,shift_size=0,num_mlp=1024, 
+                                                   num_heads=3,window_size=3,shift_size=2,num_mlp=1024, 
                                                    qkv_bias=qkv_bias,qk_scale=qk_scale,mlp_drop=mlp_drop_rate, 
                                                    attn_drop=attn_drop_rate,proj_drop=proj_drop_rate,
                                                    drop_path_prob=drop_path_rate)(SWT)
         
         SWT = swin_layers.SwinTransformerBlock(dim=embed_dim,num_patch=(num_patch_x, num_patch_y),
-                                                   num_heads=3,window_size=3,shift_size=0,num_mlp=1024, 
+                                                   num_heads=3,window_size=3,shift_size=2,num_mlp=1024, 
                                                    qkv_bias=qkv_bias,qk_scale=qk_scale,mlp_drop=mlp_drop_rate, 
                                                    attn_drop=attn_drop_rate,proj_drop=proj_drop_rate,
                                                    drop_path_prob=drop_path_rate)(SWT)
         
         SWT = swin_layers.SwinTransformerBlock(dim=embed_dim,num_patch=(num_patch_x, num_patch_y),
-                                                   num_heads=3,window_size=3,shift_size=0,num_mlp=1024, 
+                                                   num_heads=3,window_size=3,shift_size=2,num_mlp=1024, 
                                                    qkv_bias=qkv_bias,qk_scale=qk_scale,mlp_drop=mlp_drop_rate, 
                                                    attn_drop=attn_drop_rate,proj_drop=proj_drop_rate,
                                                    drop_path_prob=drop_path_rate)(SWT)
